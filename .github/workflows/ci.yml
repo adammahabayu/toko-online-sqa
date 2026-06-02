@@ -21,5 +21,6 @@ jobs:
       - name: Install PHP Dependencies
         run: composer install --prefer-dist --no-progress
 
+
       - name: Run Automated Tests
-        run: vendor/bin/phpunit tests/
+        run: php vendor/bin/phpunit tests/
