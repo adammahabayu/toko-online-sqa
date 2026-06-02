@@ -1,0 +1,80 @@
+[
+    {
+        "id_pesanan": "ORD-6a09716a2d11b",
+        "email": "zan12@gmail.com",
+        "alamat": "munggut",
+        "items": {
+            "A-001": "1"
+        },
+        "total_bayar": 120000,
+        "status": "Dikirim",
+        "tanggal": "2026-05-17 07:42:34"
+    },
+    {
+        "id_pesanan": "ORD-6a097177ea403",
+        "email": "zan12@gmail.com",
+        "alamat": "aa",
+        "items": {
+            "A-001": "1"
+        },
+        "total_bayar": 120000,
+        "status": "Dikirim",
+        "tanggal": "2026-05-17 07:42:47"
+    },
+    {
+        "id_pesanan": "ORD-6a097e5a3fc1e",
+        "email": "zan12@gmail.com",
+        "alamat": "aa",
+        "items": {
+            "PRD-002": "1"
+        },
+        "total_bayar": 270000,
+        "status": "Diproses",
+        "tanggal": "2026-05-17 08:37:46"
+    },
+    {
+        "id_pesanan": "ORD-6a097e6b72441",
+        "email": "zan12@gmail.com",
+        "alamat": "aa",
+        "items": {
+            "PRD-002": "1"
+        },
+        "total_bayar": 270000,
+        "status": "Diproses",
+        "tanggal": "2026-05-17 08:38:03"
+    },
+    {
+        "id_pesanan": "ORD-6a097e71de30d",
+        "email": "zan12@gmail.com",
+        "alamat": "aa",
+        "items": {
+            "PRD-002": "1"
+        },
+        "total_bayar": 270000,
+        "status": "Dikirim",
+        "tanggal": "2026-05-17 08:38:09"
+    },
+    {
+        "id_pesanan": "ORD-6a09826316046",
+        "email": "zan12@gmail.com",
+        "alamat": "bb",
+        "items": {
+            "PRD-001": "1",
+            "PRD-002": "1"
+        },
+        "total_bayar": 420000,
+        "status": "Menunggu Pembayaran",
+        "tanggal": "2026-05-17 08:54:59"
+    },
+    {
+        "id_pesanan": "ORD-6a09ba73d7677",
+        "email": "budi@email.com",
+        "alamat": "Ambon",
+        "items": {
+            "PRD-001": "2"
+        },
+        "total_bayar": 320000,
+        "status": "Dikirim",
+        "tanggal": "2026-05-17 14:54:11"
+    }
+]
