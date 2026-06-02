@@ -5,6 +5,10 @@ use Facebook\WebDriver\Remote\DesiredCapabilities;
 use Facebook\WebDriver\Chrome\ChromeOptions;
 use Facebook\WebDriver\WebDriverBy;
 
+/**
+ * @group selenium
+ */
+
 class SystemTest extends TestCase{
     private $driver;
     private $baseUrl = 'http://localhost:8000';
