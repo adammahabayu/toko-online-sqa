@@ -16,9 +16,12 @@ class SystemTest extends TestCase{
 
         $chromeOptions = new ChromeOptions();
 
-        $chromeOptions->setBinary(
-            'D:\\toko-online-pjbl\\chrome-win64\\chrome-win64\\chrome.exe'
-        );
+        // Hanya gunakan Chrome portable saat di Windows lokal
+        if (PHP_OS_FAMILY === 'Windows') {
+            $chromeOptions->setBinary(
+                'D:\\toko-online-pjbl\\chrome-win64\\chrome-win64\\chrome.exe'
+            );
+        }
 
         $chromeOptions->addArguments([
             '--headless',
