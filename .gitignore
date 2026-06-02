@@ -1,9 +1,0 @@
-/vendor/
-/chrome-win64/
-/chromedriver-win64/
-/coverage/
-
-.phpunit.result.cache
-
-data/products_test.json
-data/orders_test.json
